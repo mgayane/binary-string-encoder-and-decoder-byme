@@ -1,0 +1,56 @@
+# This is a .gitignore file for git-managed ACA Capstone-Project-Group-3.
+# Do not modify contents of this file unless you have a proper understanding of GIT system and have read official documentation for .gitignore file usage.
+#
+# For more info on correct use of .gitignore file and its contents, you may refer to following links - 
+# http://git-scm.com/book/en/Git-Basics-Recording-Changes-to-the-Repository
+# http://git-scm.com/docs/gitignore
+# https://github.com/github/gitignore
+
+
+# Backed-up GIT files.
+*.orig
+
+
+# NPM related files
+node_modules/
+npm-debug.log
+
+
+# General files
+*.tmp
+
+
+# PC related files
+/.idea
+
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+
+# Flask stuff:
+instance/
+.webassets-cache
+
+
+# Scrapy stuff:
+.scrapy
+
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+
+src/app.db
